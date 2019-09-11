@@ -15,4 +15,6 @@ variable "instance_type" { }
 variable "environment" { 
   default = "dev"
 }
-variable "sg_cidr_blocks" { }
+variable "sg_cidr_blocks" { 
+  default = ["136.1.0.0/16", "136.2.0.0/16"]
+}
