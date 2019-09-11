@@ -75,7 +75,7 @@ resource "aws_instance" "servers" {
 
 resource "aws_security_group" "allow" {
     vpc_id = aws_vpc.my-vpc.id
-    name = "iacsg"
+    name = "iacsg${var.environment}"
     ingress {
       from_port = 0
       to_port = 0
