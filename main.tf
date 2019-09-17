@@ -36,7 +36,7 @@ resource "aws_internet_gateway" "igw" {
 }
 
 output "val-id" {
-  value = aws_internet_gateway.igw.id
+  value = var.secret_key
 
 }
 
