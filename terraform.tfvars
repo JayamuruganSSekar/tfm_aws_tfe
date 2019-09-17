@@ -1,0 +1,9 @@
+  access_key     = "AKIATY36TG7ZW5IG2KM2"
+  secret_key     = "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"
+  vm_count       = 2
+  ami            = "ami-02f706d959cedf892"
+  instance_type  = "t2.micro"
+  vpc_cidr_block = "10.1.0.0/16"
+  #subnet_cidr_blocks = ["10.0.1.0/24","10.0.2.0/24","10.0.3.0/24"]
+  sg_cidr_blocks = ["136.1.0.0/16", "136.2.0.0/16"]
+  environment    =  "stage"
